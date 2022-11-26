@@ -4,13 +4,26 @@
     margin: 0px; 
     font-family: 'Encode Sans', sans-serif;
 }
-   /* #container_grupos{
-        
-    }*/ 
+
+h2 {
+    margin: 0.3rem;
+    text-decoration: underline;
+}
+
+h3 {
+    margin: 0.8rem;
+    text-decoration: underline;
+}
+
+h4 {
+    margin: 1rem;
+}
+
+
 .titulo {
     display: flex;
     justify-content: center;
-    background-color: eb1616;
+    background-color: #eb1616;
     color: white;
     padding: 0.5rem;
     text-align: center;
@@ -70,17 +83,6 @@
     color: white;
 }
 
-/* button{
-    display: flex;
-    width: 147px;
-    justify-content: center;
-    align-items: center;
-    margin: 14px auto;
-    border-radius: 0.5rem;
-    border: #0000005e;
-    cursor: pointer;
-} */
-
 .container_eliminacion_directa{
     display: flex;
     flex-direction: column;
@@ -126,7 +128,7 @@
 
 .envoltorio img{
     height: 5rem;
-    margin: 1rem;
+    margin: 2rem;
     cursor: pointer;
 }
 
@@ -138,7 +140,7 @@
     font-size: 0.8rem;
 }
 
-/* boton */
+/*BOTONES*/
 
 button {
     display: flex;
@@ -159,24 +161,28 @@ button {
 }
 
 button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
+
 button span:after {
-content: '\00bb';  /* Entidades CSS. Para usar entidades HTML, use &#8594;*/
-position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: '\00bb';
+    /* Entidades CSS. Para usar entidades HTML, use &#8594;*/
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
+
 button:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
+
 button:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
