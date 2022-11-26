@@ -967,7 +967,6 @@ function Winner1(img) {// first f1 IZQUIERDA
     }
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/CAM.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
-        first.removeChild(first.firstElementChild);
         first.firstElementChild.src = 'https://i.ibb.co/GPR314C/asd.jpg';
         // let videoEmi = document.createElement('video');
         // videoEmi.src = 'https://youtu.be/F7doKRUZ4QU';
@@ -981,9 +980,6 @@ function Winner1(img) {// first f1 IZQUIERDA
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/ARG.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.firstElementChild.src = 'https://i.ibb.co/XtsgF0W/anulo-Mufa.jpg';
-        first.firstElementChild.height = 240;
-        first.firstElementChild.width = 240;
-
     }
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/BRA.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
@@ -1004,7 +1000,6 @@ function Winner2(img) { // first f2 DERECHA
     }
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/CAM.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
-        first.removeChild(first.firstElementChild);
         first.firstElementChild.src = 'https://i.ibb.co/GPR314C/asd.jpg';
         // let videoEmi = document.createElement('video');
         // videoEmi.src = 'https://youtu.be/F7doKRUZ4QU';
@@ -1017,8 +1012,6 @@ function Winner2(img) { // first f2 DERECHA
     } 
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/ARG.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
-        first.firstElementChild.height = 240;
-        first.firstElementChild.width = 240;
         first.firstElementChild.src = 'https://i.ibb.co/XtsgF0W/anulo-Mufa.jpg';
     }
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/BRA.svg'){
