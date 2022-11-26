@@ -193,3 +193,6 @@ button:hover span:after {
     right: 0;
 }
 
+.champion img{
+    height: 300px !important;
+}

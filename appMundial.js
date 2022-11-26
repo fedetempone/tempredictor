@@ -927,8 +927,8 @@ function final_1(img){
     f1.firstElementChild.classList.remove('imagen-octavos');
     t1.firstElementChild.src = a2.firstElementChild.src;
     t1.firstElementChild.classList.remove('imagen-octavos');
-    let champion = f1.firstElementChild;    
-    champion.addEventListener('click', Winner1);
+    let champion = f1.firstElementChild; 
+    champion.addEventListener('click', Winner1);  
 }
 
 function final_2(img){
@@ -958,26 +958,79 @@ function final_4(img){
     champion.addEventListener('click', Winner2);
 }
 
-function Winner1(img){
+function Winner1(img) {// first f1 IZQUIERDA
     first.firstElementChild.src = img.target.src;
-    first.firstElementChild.classList.remove('imagen-octavos');
+    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/senegal.svg'){
+        first.firstElementChild.classList.remove('imagen-octavos');
+        first.firstElementChild.src = './img/123.jpg';
+
+    }
+    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/camerun.svg'){
+        first.firstElementChild.classList.remove('imagen-octavos');
+        first.removeChild(first.firstElementChild);
+        let videoEmi = document.createElement('video');
+        videoEmi.src = './video/emi.mp4';
+        videoEmi.autoplay = false;
+        videoEmi.controls = true;
+        videoEmi.muted = false;
+        videoEmi.height = 240; // 👈️ in px
+        videoEmi.width = 320; // 👈️ in px
+        first.appendChild(videoEmi);
+    } 
+    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/arg.svg'){
+        first.firstElementChild.classList.remove('imagen-octavos');
+        first.firstElementChild.src = './img/anuloMufa.jpg';
+        first.firstElementChild.height = 240;
+        first.firstElementChild.width = 240;
+
+    }
+    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/brasil.svg'){
+        first.firstElementChild.classList.remove('imagen-octavos');
+        first.firstElementChild.src = './img/brasilCampeon.jpg';
+    }
     subChampion.firstElementChild.src = f2.firstElementChild.src;
     subChampion.firstElementChild.classList.remove('imagen-octavos');
+    
 }
 
-function Winner2(img){
+function Winner2(img) { // first f2 DERECHA
     first.firstElementChild.src = img.target.src;
     first.firstElementChild.classList.remove('imagen-octavos');
+    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/senegal.svg'){
+        first.firstElementChild.classList.remove('imagen-octavos');
+        first.firstElementChild.src = './img/123.jpg';
+
+    }
+    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/camerun.svg'){
+        first.firstElementChild.classList.remove('imagen-octavos');
+        first.removeChild(first.firstElementChild);
+        let videoEmi = document.createElement('video');
+        videoEmi.src = './video/emi.mp4';
+        videoEmi.autoplay = false;
+        videoEmi.controls = true;
+        videoEmi.muted = false;
+        videoEmi.height = 240; // 👈️ in px
+        videoEmi.width = 320; // 👈️ in px
+        first.appendChild(videoEmi);
+    } 
+    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/arg.svg'){
+        first.firstElementChild.classList.remove('imagen-octavos');
+        first.firstElementChild.height = 240;
+        first.firstElementChild.width = 240;
+        first.firstElementChild.src = './img/anuloMufa.jpg';
+    }
+    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/brasil.svg'){
+        first.firstElementChild.classList.remove('imagen-octavos');
+        first.firstElementChild.src = './img/brasilCampeon.jpg';
+    }
     subChampion.firstElementChild.src = f1.firstElementChild.src;
     subChampion.firstElementChild.classList.remove('imagen-octavos');
 }
 
-
 t1.firstElementChild.addEventListener('click', tercer_puesto);
 t2.firstElementChild.addEventListener('click', tercer_puesto);
-function tercer_puesto(img){
+
+function tercer_puesto(img){ 
     thirdPlace.firstElementChild.src = img.target.src;
     thirdPlace.firstElementChild.classList.remove('imagen-octavos');
 }
-
-    
