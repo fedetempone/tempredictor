@@ -960,16 +960,16 @@ function final_4(img){
 
 function Winner1(img) {// first f1 IZQUIERDA
     first.firstElementChild.src = img.target.src;
-    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/senegal.svg'){
+    if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/SEN.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.firstElementChild.src = './img/123.jpg';
 
     }
-    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/camerun.svg'){
+    if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/CAM.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.removeChild(first.firstElementChild);
         let videoEmi = document.createElement('video');
-        videoEmi.src = 'https://drive.google.com/file/d/1kRrEpKVaircQ5VXy4cHglc_tDw5cpFjK/view?usp=share_link';
+        videoEmi.src = 'https://youtu.be/F7doKRUZ4QU';
         videoEmi.autoplay = false;
         videoEmi.controls = true;
         videoEmi.muted = false;
@@ -996,17 +996,17 @@ function Winner1(img) {// first f1 IZQUIERDA
 function Winner2(img) { // first f2 DERECHA
     first.firstElementChild.src = img.target.src;
     first.firstElementChild.classList.remove('imagen-octavos');
-    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/senegal.svg'){
+    if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/SEN.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.firstElementChild.src = './img/123.jpg';
 
     }
-    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/camerun.svg'){
+    if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/CAM.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.removeChild(first.firstElementChild);
         let videoEmi = document.createElement('video');
-        videoEmi.src = 'https://drive.google.com/file/d/1kRrEpKVaircQ5VXy4cHglc_tDw5cpFjK/view?usp=share_link';
-        videoEmi.autoplay = false;
+        videoEmi.src = 'https://youtu.be/F7doKRUZ4QU';
+        videoEmi.autoplay = true;
         videoEmi.controls = true;
         videoEmi.muted = false;
         videoEmi.height = 240; // 👈️ in px
