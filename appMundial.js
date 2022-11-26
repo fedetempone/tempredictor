@@ -969,7 +969,7 @@ function Winner1(img) {// first f1 IZQUIERDA
         first.firstElementChild.classList.remove('imagen-octavos');
         first.removeChild(first.firstElementChild);
         let videoEmi = document.createElement('video');
-        videoEmi.src = './video/emi.mp4';
+        videoEmi.src = 'https://drive.google.com/file/d/1kRrEpKVaircQ5VXy4cHglc_tDw5cpFjK/view?usp=share_link';
         videoEmi.autoplay = false;
         videoEmi.controls = true;
         videoEmi.muted = false;
@@ -1005,7 +1005,7 @@ function Winner2(img) { // first f2 DERECHA
         first.firstElementChild.classList.remove('imagen-octavos');
         first.removeChild(first.firstElementChild);
         let videoEmi = document.createElement('video');
-        videoEmi.src = './video/emi.mp4';
+        videoEmi.src = 'https://drive.google.com/file/d/1kRrEpKVaircQ5VXy4cHglc_tDw5cpFjK/view?usp=share_link';
         videoEmi.autoplay = false;
         videoEmi.controls = true;
         videoEmi.muted = false;
