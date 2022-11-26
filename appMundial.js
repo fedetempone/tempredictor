@@ -962,66 +962,68 @@ function Winner1(img) {// first f1 IZQUIERDA
     first.firstElementChild.src = img.target.src;
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/SEN.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
-        first.firstElementChild.src = './img/123.jpg';
+        first.firstElementChild.src = 'https://ibb.co/yh9CN7h';
 
     }
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/CAM.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.removeChild(first.firstElementChild);
-        let videoEmi = document.createElement('video');
-        videoEmi.src = 'https://youtu.be/F7doKRUZ4QU';
-        videoEmi.autoplay = false;
-        videoEmi.controls = true;
-        videoEmi.muted = false;
-        videoEmi.height = 240; // 👈️ in px
-        videoEmi.width = 320; // 👈️ in px
-        first.appendChild(videoEmi);
+        first.firstElementChild.src = 'https://ibb.co/RHc4MkQ';
+        // let videoEmi = document.createElement('video');
+        // videoEmi.src = 'https://youtu.be/F7doKRUZ4QU';
+        // videoEmi.autoplay = false;
+        // videoEmi.controls = true;
+        // videoEmi.muted = false;
+        // videoEmi.height = 240; // 👈️ in px
+        // videoEmi.width = 320; // 👈️ in px
+        // first.appendChild(videoEmi);
     } 
-    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/arg.svg'){
+    if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/ARG.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.firstElementChild.src = './img/anuloMufa.jpg';
         first.firstElementChild.height = 240;
         first.firstElementChild.width = 240;
 
     }
-    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/brasil.svg'){
+    if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/BRA.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
-        first.firstElementChild.src = './img/brasilCampeon.jpg';
+        first.firstElementChild.src = 'https://ibb.co/649Ts1Q';
     }
     subChampion.firstElementChild.src = f2.firstElementChild.src;
     subChampion.firstElementChild.classList.remove('imagen-octavos');
     
 }
-
+// emi https://ibb.co/RHc4MkQ
 function Winner2(img) { // first f2 DERECHA
     first.firstElementChild.src = img.target.src;
     first.firstElementChild.classList.remove('imagen-octavos');
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/SEN.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
-        first.firstElementChild.src = './img/123.jpg';
+        first.firstElementChild.src = 'https://ibb.co/yh9CN7h';
 
     }
     if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/CAM.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.removeChild(first.firstElementChild);
-        let videoEmi = document.createElement('video');
-        videoEmi.src = 'https://youtu.be/F7doKRUZ4QU';
-        videoEmi.autoplay = true;
-        videoEmi.controls = true;
-        videoEmi.muted = false;
-        videoEmi.height = 240; // 👈️ in px
-        videoEmi.width = 320; // 👈️ in px
-        first.appendChild(videoEmi);
+        first.firstElementChild.src = 'https://ibb.co/RHc4MkQ';
+        // let videoEmi = document.createElement('video');
+        // videoEmi.src = 'https://youtu.be/F7doKRUZ4QU';
+        // videoEmi.autoplay = true;
+        // videoEmi.controls = true;
+        // videoEmi.muted = false;
+        // videoEmi.height = 240; // 👈️ in px
+        // videoEmi.width = 320; // 👈️ in px
+        // first.appendChild(videoEmi);
     } 
-    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/arg.svg'){
+    if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/ARG.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
         first.firstElementChild.height = 240;
         first.firstElementChild.width = 240;
         first.firstElementChild.src = './img/anuloMufa.jpg';
     }
-    if (first.firstElementChild.src == 'http://127.0.0.1:5500/img/brasil.svg'){
+    if (first.firstElementChild.src == 'https://sorteomundial.ole.com.ar/images/BRA.svg'){
         first.firstElementChild.classList.remove('imagen-octavos');
-        first.firstElementChild.src = './img/brasilCampeon.jpg';
+        first.firstElementChild.src = 'https://ibb.co/649Ts1Q';
     }
     subChampion.firstElementChild.src = f1.firstElementChild.src;
     subChampion.firstElementChild.classList.remove('imagen-octavos');
